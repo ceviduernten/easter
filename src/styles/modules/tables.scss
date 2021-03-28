@@ -1,0 +1,32 @@
+@import "../fonts";
+@import "../colors";
+
+.datatable-wrapper {
+  padding: 10px;
+
+  .noresult {
+    background-color: $tableColor;
+    padding: 1rem;
+    font-family: "OpenSans Bold", serif;
+  }
+}
+
+.datatable {
+  .cell-header {
+    font-family: "OpenSans Bold", serif;
+  }
+
+  .action > a {
+    color: $ceviBlue;
+    font-family: "OpenSans Light", serif;
+    margin-right: 1.2rem;
+
+    &.new {
+      color: $ceviGreen;
+    }
+
+    &:not(.disabled):not(.info):hover {
+      cursor: pointer;
+    }
+  }
+}

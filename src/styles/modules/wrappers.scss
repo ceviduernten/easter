@@ -1,0 +1,55 @@
+@import "../fonts";
+@import "../colors";
+
+.info-wrapper {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid $navigationBackground;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+  min-height: 75px;
+
+  &.info-wrapper-primary {
+    border-left-color: $ceviBlue;
+  }
+  &.info-wrapper-warning {
+    border-left-color: $ceviBlue;
+  }
+  &.info-wrapper-failure {
+    border-left-color: $ceviRed;
+  }
+  &.info-wrapper-success {
+    border-left-color: $ceviGreen;
+  }
+
+
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+  }
+}
+
+.form-info-wrapper {
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid $navigationBackground;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+  font-size: 10pt;
+
+  &.info-wrapper-primary {
+    border-left-color: $ceviBlue;
+  }
+  &.info-wrapper-warning {
+    border-left-color: $ceviBlue;
+  }
+  &.info-wrapper-failure {
+    border-left-color: $ceviRed;
+  }
+  &.info-wrapper-success {
+    border-left-color: $ceviGreen;
+  }
+}

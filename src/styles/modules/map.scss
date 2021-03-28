@@ -1,0 +1,19 @@
+@import "../fonts";
+@import "../colors";
+
+.found {
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid $ceviBlue !important;
+  background-color: white !important;
+  border-radius: 6px !important;
+  font-family: "OpenSans Light", serif !important;
+  font-size: 8pt !important;
+  color: $ceviBlue !important;
+  padding: 6px 10px 6px 10px !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 12pt;
+}

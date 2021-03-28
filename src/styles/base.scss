@@ -1,0 +1,132 @@
+@import "colors";
+$main-font: 'OpenSans Light';
+$title-font: 'Roboto Bold';
+$text-size-normal: 14px;
+
+* {
+
+}
+
+.clearboth {
+  clear: both;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $text-size-normal;
+  color: $textColor;
+  background-color: $white;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1.mainHeader {
+  background-color: $ceviRed;
+  color: $white !important;
+  padding: 10px !important;
+  border-radius: 7px;
+  font-size: 1.5rem !important;
+  text-transform: uppercase !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: $title-font;
+}
+
+h5 {
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+h3 {
+  margin-bottom: 0px !important;
+}
+
+p {
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button[type=submit] {
+  margin-bottom: 20px !important;
+}
+
+button:not(.rw-btn) {
+  border: 2px solid $ceviBlue !important;
+  background-color: white !important;
+  border-radius: 6px !important;
+  font-family: "OpenSans Light", serif !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  color: $ceviBlue !important;
+  padding: 12.5px 15px 12.5px 15px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+
+  svg {
+    margin-right: 15px;
+  }
+
+  &.primary {
+    border-color: $ceviBlue !important;
+    color: $ceviBlue !important;
+    &:hover {
+      color: white !important;
+      background-color: $ceviBlue !important;
+    }
+  }
+  &.warning {
+    border-color: $ceviRed !important;
+    color: $ceviRed !important;
+    &:hover {
+      color: white !important;
+      background-color: $ceviRed !important;
+    }
+  }
+  &.success {
+    border-color: $ceviGreen !important;
+    color: $ceviGreen !important;
+    &:hover {
+      color: white !important;
+      background-color: $ceviGreen !important;
+    }
+  }
+
+}
+
+.customer-list {
+  margin-right: 20px;
+}
+
+select {
+  border: 2px solid $ceviBlue;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: "OpenSans Light", serif;
+  color: black;
+}
+
+.form-wrapper {
+  padding: 10px;
+}
+
+.map {
+  height: 500px;
+}
+
+.legend {
+  img {
+    vertical-align: middle;
+  }
+  margin-bottom: 5px;
+  span {
+    margin-left: 10px;
+  }
+}
