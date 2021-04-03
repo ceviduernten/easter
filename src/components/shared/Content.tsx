@@ -9,6 +9,7 @@ import MapContainer from "../../containers/MapContainer";
 import {PrivateRoute} from "./PrivateRoute";
 import LogoutContainer from "../../containers/LogoutContainer";
 import LoginContainer from "../../containers/LoginContainer";
+import MapAdminContainer from "../../containers/MapAdminContainer";
 
 class Content extends Component {
     render(): React.ReactNode {
@@ -18,6 +19,7 @@ class Content extends Component {
                     <Switch>
                         <PrivateRoute path="/cities" component={CitiesContainer}/>
                         <Route path="/map" component={MapContainer}/>
+                        <PrivateRoute path="/preview" component={MapAdminContainer}/>
                         <PrivateRoute path="/locations" component={LocationsContainer}/>
                         <Route path="/home" component={Home}/>
                         <Route path="/about" component={About}/>

@@ -30,6 +30,9 @@ class Navigation extends Component<any, any> {
                     </Menu.Item>
                         {sessionHelper.HasScoutingAccess() &&
                             <>
+                                <Menu.Item as={ Link } key="nav-login" to="/preview" name='preview' active={activeItem === 'preview'} onClick={this.handleMenuItemClick}>
+                                    Karte (Preview)
+                                </Menu.Item>
                                 <Menu.Item as={Link} key="nav-cities" to="/cities" name='cities' active={activeItem === 'cities'} onClick={this.handleMenuItemClick}>
                                 Ortsbezirke
                                 </Menu.Item>
