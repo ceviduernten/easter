@@ -10,7 +10,7 @@ class Home extends Component {
                     <p>Cool, bist du bei unserer Aktion dabei. Ganz einfach kannst du deinen eigenen Osterhasen finden.</p>
 
                     <Header as="h3">Wir haben sie versteckt</Header>
-                    <p>In den Gemeinden Dürnten und Wald sind am Ostersonntag über 100 Osterhasen versteckt, die ihr suchen dürft.</p>
+                    <p>In den Gemeinden Dürnten und Wald sind am Ostersonntag hunderte Osterhasen versteckt, die ihr suchen dürft.</p>
 
                     <Header as="h3">So funktioniert es</Header>
                     <p>Sucht die Hasen gemeinsam mit eurer Familie oder mit Freunden. <br/>
@@ -22,7 +22,7 @@ class Home extends Component {
                     </p>
 
                     <Header as="h3">Aufschaltung der Standorte</Header>
-                    <p>Sonntag, 04. April 2021 - 11.00 Uhr</p>
+                    <p>Sonntag, 31. März 2024 - 11.00 Uhr</p>
 
                     <Header as="h3">Eindrücke der Aktion</Header>
                     <p>Gerne dürfen Sie Fotos und Eindrücke ihrer ganz persönlichen Suchaktion mit uns teilen.<br/>

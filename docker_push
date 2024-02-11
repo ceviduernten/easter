@@ -3,7 +3,7 @@ docker login -u $1 -p $2
 prop="version"
 actual_version="$(node -pe "require('./package.json')['$prop']")"
 echo $actual_version
-docker build -t ceviduernten/easter:$actual_version .
+docker build --platform linux/amd64 -t ceviduernten/easter:$actual_version .
 docker push ceviduernten/easter:$actual_version
 docker tag ceviduernten/easter:$actual_version ceviduernten/easter:latest
 docker push ceviduernten/easter:latest

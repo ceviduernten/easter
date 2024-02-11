@@ -7,13 +7,13 @@ class About extends Component {
             <>
                 <Header as="h1" className="mainHeader">Impressum</Header>
                 <div className="content">
-                    <p>Diese Anwendung dient zur Verwaltung und als interaktive Karte für die Osterhasenaktion 2021 im Rahmen des 30ig-Jahren Jubiäum</p>
+                    <p>Diese Anwendung dient zur Verwaltung und als interaktive Karte für die Osterhasenaktion 2024.</p>
                     <Header as="h3">Administrator und Technischer Kontakt</Header>
-                    <p>Urs Forrer v/o MIR<br/>Büelstrasse 16a<br/>8635 Dürnten<br/>079 323 56 62<br/><a href="mailto:webmaster@ceviduernten.ch">webmaster@ceviduernten.ch</a></p>
+                    <p>Urs Forrer v/o MIR<br/>Alte Tannerstrasse 25c<br/>8632 Tann<br/>079 323 56 62<br/><a href="mailto:webmaster@ceviduernten.ch">webmaster@ceviduernten.ch</a></p>
                     <Header as="h3">Design und Umsetzung</Header>
                     <p>Urs Forrer v/o MIR</p>
-                    <Header as="h3">Idee</Header>
-                    <p>OK-Team Osterhasenaktion 2021</p>
+                    <Header as="h3">Durchführung</Header>
+                    <p>OK-Team Osterhasenaktion 2024</p>
                     <Header as="h3">Hosting</Header>
                     <p>Die Anwendung wird mit Docker auf einem vServer von Hosttech.ch gehosted.</p>
                     <Header as="h3">Hinter der Webseite</Header>
