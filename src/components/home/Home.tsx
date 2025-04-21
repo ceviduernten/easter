@@ -22,7 +22,7 @@ class Home extends Component {
                     </p>
 
                     <Header as="h3">Aufschaltung der Standorte</Header>
-                    <p>Sonntag, 31. März 2024 - 11.00 Uhr</p>
+                    <p>Sonntag, 20. April 2025 - 11.00 Uhr</p>
 
                     <Header as="h3">Eindrücke der Aktion</Header>
                     <p>Gerne dürfen Sie Fotos und Eindrücke ihrer ganz persönlichen Suchaktion mit uns teilen.<br/>

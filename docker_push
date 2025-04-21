@@ -1,5 +1,5 @@
 #!/bin/bash
-docker login -u $1 -p $2
+#docker login -u $1 -p $2
 prop="version"
 actual_version="$(node -pe "require('./package.json')['$prop']")"
 echo $actual_version
